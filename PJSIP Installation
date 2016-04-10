@@ -1,0 +1,22 @@
+Hello friends, this document helps you in installation of PJSIP open source python library. 
+
+Steps:
+
+1. Download source code from - http://www.pjsip.org/download.htm
+2. Open the Terminal and follow the steps below
+2. cd <pjsip-module-directory>  #Navigate to the downloaded folder location
+3. cd pjlib/include/pj/      #Navigation to the pj folder
+4. Create a config_site.h file 
+5. ./configure && make dep && make
+6. cd pjsip-apps/src/python/     #Navigate to the python folder
+7. sudo make
+8. sudo python ./setup.py install
+   
+For testing the installation:   
+1.Open the terminal, type python and press enter
+2. Type “ import pjsua”
+      If the module is not installed, then you may get an error.
+      else
+      The installation is successful.
+      
+
